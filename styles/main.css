@@ -24,7 +24,6 @@ body {
 }
 
 .grid {
-  border: 2px solid gray;
   width: 1400px;
   display: -ms-grid;
   display: grid;
@@ -54,7 +53,23 @@ body {
 
 .grid .testimony header .personal-info {
   padding-left: 1em;
-  font-size: 13px;
+  font-size: 1rem;
+}
+
+.grid .testimony header .personal-info h2 {
+  font-size: 1.3rem;
+}
+
+.grid .testimony .main-testimony {
+  padding-top: .8em;
+  padding-bottom: .5em;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.grid .testimony .recommendation {
+  padding-top: .5em;
+  line-height: 1.4em;
 }
 
 .grid #daniel {
