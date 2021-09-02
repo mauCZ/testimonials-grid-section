@@ -154,7 +154,7 @@ body {
     -ms-grid-rows: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
   }
-  .grid .main-testimony {
+  .grid .testimony .main-testimony {
     height: auto;
   }
   .grid #daniel {
@@ -199,6 +199,10 @@ body {
     -ms-grid-rows: auto auto auto auto auto;
         grid-template-rows: auto auto auto auto auto;
   }
+  .grid .testimony .main-testimony {
+    height: auto;
+    min-height: 0;
+  }
   .grid #daniel {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
@@ -211,9 +215,9 @@ body {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
-    -ms-grid-row: 3;
+    -ms-grid-row: 2;
     -ms-grid-row-span: 1;
-    grid-row: 3/4;
+    grid-row: 2/3;
   }
   .grid #kira {
     -ms-grid-column: 1;
@@ -227,9 +231,9 @@ body {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
-    -ms-grid-row: 2;
+    -ms-grid-row: 3;
     -ms-grid-row-span: 1;
-    grid-row: 2/3;
+    grid-row: 3/4;
   }
   .grid #patrick {
     -ms-grid-column: 1;
